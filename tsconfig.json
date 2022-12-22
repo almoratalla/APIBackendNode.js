@@ -1,0 +1,32 @@
+{
+    "compilerOptions": {
+        "target": "esnext",
+        "module": "commonjs",
+        "sourceMap": true,
+        "outDir": "./dist",
+        "baseUrl": "./src",
+        "pretty": true,
+        "strict": true,
+        "esModuleInterop": true,
+        "typeRoots": ["./node_modules/@types", "./src/types"],
+        "lib": ["ES2021", "DOM"],
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true,
+        "moduleResolution": "node",
+        "types": ["jest", "node"],
+        "resolveJsonModule": true,
+        "paths": {
+            "@config/*": ["./config/*"],
+            "@api/*": ["./api/*"],
+            "@routes/*": ["./api/routes/*"],
+            "@controllers/*": ["./api/controllers/*"],
+            "@services/*": ["./services/*"],
+            "@data/*": ["./data/*"],
+            "@utils/*": ["./utils/*"],
+            "@interfaces/*": ["./interfaces/*"],
+            "@schema/*": ["./schema/*"]
+        }
+    },
+    "exclude": ["node_modules", "public/*"],
+    "include": ["./src/**/*"]
+}
