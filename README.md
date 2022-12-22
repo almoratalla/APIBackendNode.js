@@ -1,4 +1,4 @@
-# [API Backend Node](htts://github.com/almoratalla/APIBackendNode.js)
+# [API Backend Node](https://github.com/almoratalla/APIBackendNode.js)
 
 > A simple starting code for node.js api backend with code structure using express and prisma
 
@@ -10,7 +10,6 @@
     -   [Features](#features)
     -   [API Endpoints](#api-endpoints)
     -   [Demo](#demo)
-    -   [Screenshots](#screenshots)
     -   [Tech Stack](#tech-stack)
         -   [Built with](#built-with)
     -   [Initial Requirements](#initial-requirements)
