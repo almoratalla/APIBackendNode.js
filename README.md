@@ -114,13 +114,13 @@ To run this project, you will need to add the following environment variables to
 1. Clone the project
 
 ```bash
-  git clone git@github.com:almoratalla/APIBackendNode.js.git
+  git clone git@github.com:almoratalla/APIBackendNodeJS.git
 ```
 
 2. Go to the project directory
 
 ```bash
-  cd APIBackendNode.js
+  cd APIBackendNodeJS
 ```
 
 3. Install dependencies
